@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Bahan <small>Untuk MkDocs</small>
 
-You can use the [editor on GitHub](https://github.com/choirul1/Penambangan-WEB-075/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Buat dokumentasi  project yang indah  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Materi adalah tema untuk [MkDocs][1], generation situs statis yang sangat baik . menuju dokumentasi proyek, Dibangun menggunakan Google  [Material Design][2]
+Pedoman.
 
-### Markdown
+[![Material for MkDocs](assets/images/material.png)](assets/images/material.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[1]: https://www.mkdocs.org
+[2]: https://material.io/guidelines/material-design/
 
-```markdown
-Syntax highlighted code block
+## Quick start
 
-# Header 1
-## Header 2
-### Header 3
+Install Material Versi Terbaru Dengan `pip`:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` sh
+pip install mkdocs-material
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Tambahkan Baris Berikut Pada Proyek Anda `mkdocs.yml`:
 
-### Jekyll Themes
+``` yaml
+theme:
+  name: 'material'
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/choirul1/Penambangan-WEB-075/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Apa Yang Diharapkan ? 
 
-### Support or Contact
+* Desain responsif dan tata letak untuk semua jenis layar dan perangkat,
+  dirancang untuk melayani dokumentasi proyek Anda dengan cara yang ramah pengguna di 36 bahasa dengan keterbacaan optimal.
+* Mudah primer dan aksen warna, font, favicon, dan logo;
+  pelurusan langsung melalui perluasan tema; terintegrasi dengan Google
+  Analisis, Disqus, dan GitHub.
+* Antarmuka pencarian yang dirancang dengan baik dapat diakses melalui hotkey (<kbd>F</kbd> or
+  <kbd>S</kbd>),  pengelompokan hasil pencarian yang cerdas, istilah pencarian
+  menyoroti dan lazy loading.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ Untuk instruksi terperinci lihat [getting started guide][3].
+
+[3]: getting-started.md
+
+Program Ini Dijalankan Menggunakan :
+
+Bahasa Pemrograman ''PYTHON', dengan library :
+
+ * BeatifulSoup4 (install menggunakan pip)
+ * request (install menggunakan pip)
+ * SQLite3 (Library bawaan Python)
+ * csv (Library bawan python)
+ * numpy (install menggunakan pip)
+ * scipy (install menggunakan pip)
+ * scikit-learn (install menggunakan pip, untuk menjalankan install numpy dan scipy)
+ * scikit-fuzzy (install menggunakan pip, untuk menjalankan install numpy dan scipy)
+
+Target Website Adalah : https://www.liputan6.com/pilpres
